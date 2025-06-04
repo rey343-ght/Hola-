@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.menu{
+	list-style: none;
+	padding: 30px;
+	background-color: white;
+	width: 80%;
+	max-width: 1500px;
+	margin: auto;
+	text-align: center;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: black;
+	padding: 25px;
+	display:block;
+
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+
+}
+
+.menu li a: hover{
+background-color: orange;
+border-radius: 10px;
+
+}
+
+.menu:active{
+	background-color: red; 
+}
+ h1{
+ 	  /*alineacion al centro del texto h1*/
+ 	text-align:center;
+ 	  /*color d etexto h1*/
+ 	/*color: blue;*/
+ 	/* aplica sobre al texto se especifica la sobre horizontal y vertical*/
+ 	 /* aplica efecto de desenfoque a la sombra y un color*/
+   text-shadow: 1px 2px black, 0 0 25px blue, 0 0 5px red; 
+  }
+
+  div.galeria{
+  	transform: translateX(20%);
+  	/* aplica margen a i,agen*/
+  	margin: 10px 20px;
+  	/*aploica formato a la caja contenedora con la classe galeria*/
+  	box-shadow: 0 4px 8px 0 green, 0 6px 20px 0 white;
+  	  /* flota o ubica a la imagen a la izquierda*/
+  	float: left;
+  	   /* aplica un ancho a la imagen de tamaño 350 pixeles*/
+  	width: 300px;
+  	text-align: center;
+  	
+}
+      /*aplica contenedora foto formato*/
+      div.fotos{
+      	/*aplica un ancho*/
+      	width: 175px;
+      	  /* aplica un alto*/
+      	height: auto;
+      }
+
+       /*aplica formato a la caja contenedora con la ETIQUETA FOTOS*/
+      div.fotos:hover{
+
+      	border: 3px color:red;
+      	  /* con lapropiedad TRANSFOM rotar, transformar, inclinar, sesgar,etc*/
+      	   /* ROTA LA IMAGEN AL CONTRARIO DE LAS MANECIAS DEL RELOJ*/
+      	   transform: rotate(-6deg);
+}
+
+ /*aploca formato a la caja contenedora con la classe PIE*/
+div.pie{
+	font-size: 14px;
+	font-family: arial black;
+	/*alinea el texto al centro*/
+	text-align: center;
+	  /* aplica formato SOMBRA AL TEXTO*/
+	  text-shadow: 2px 2px 5px purple;
+	    /* aplica formato espacio*/
+	    padding: 10px;
+
+}
+
+ h7{
+ 	  /*alineacion al centro del texto h1*/
+ 	text-align:center;
+ 	  /*color d etexto h1*/
+ 	color: orange;
+ 	/* aplica sobre al texto se especifica la sobre horizontal y vertical*/
+ 	 /* aplica efecto de desenfoque a la sombra y un color*/
+   text-shadow:1px 2px black, 0 0 25px blue, 0 0 5px red;
+  }
+
